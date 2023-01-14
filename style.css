@@ -1,0 +1,125 @@
+/* =====================
+    font link 
+=====================*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Lobster&family=Montserrat:wght@200;400;500&family=Nunito:wght@400;500;600;800&family=Open+Sans&family=Poppins:wght@500&family=Work+Sans:wght@600&display=swap");
+
+/* =====================
+    :root
+=====================*/
+:root {
+  --banner-color: rgba(255, 144, 14, 0.1);
+  --title-color: #131313;
+  --menu-text-color: #424242;
+  --description-color: #727272;
+  --btn-color: #ff900e;
+  --white: #ffffff;
+}
+/* =====================
+    universal style
+=====================*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+.body {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+/* =====================
+    common style
+=====================*/
+
+.container {
+  margin: 0 240px;
+  padding: 50px 0;
+}
+.title {
+  font-weight: 700;
+  font-size: 45px;
+  color: var(--title-color);
+}
+.description {
+  color: var(--description-color);
+  margin: 30px 0;
+  font-size: 1rem;
+}
+.btn {
+  padding: 20px 25px;
+  background-color: var(--btn-color);
+  color: var(--white);
+  border-radius: 10px;
+}
+
+/* =====================
+    header style
+=====================*/
+
+.header {
+  background: var(--banner-color);
+}
+.nav,
+.menu ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.menu ul a {
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--menu-text-color);
+}
+.header-details {
+  margin-top: 100px;
+  text-align: center;
+}
+.main-title {
+  font-weight: 700;
+  font-size: 64px;
+  color: var(--title-color);
+}
+.header-details p {
+  margin-bottom: 50px;
+  padding: 0 100px;
+}
+.banner img {
+  width: 100%;
+  margin-top: 50px;
+  border-radius: 8px;
+}
+
+/* =====================
+    responsive style
+=====================*/
+
+@media only screen and (max-width: 576px) {
+    .container {
+        margin:0 30px;
+      }
+      .btn {
+        padding: 10px 15px;
+      }
+  .nav,
+  .menu ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .title {
+    font-size: 35px;
+}
+  .header-details {
+    margin-top: 30px;
+  }
+  .main-title {
+    font-size: 44px;
+  }
+  .header-details p {
+    padding: 0px;
+  }
+}
