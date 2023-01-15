@@ -12,7 +12,7 @@
   --menu-text-color: #424242;
   --description-color: #727272;
   --btn-color: #ff900e;
-  --btn-hover-color:#ec850e;
+  --btn-hover-color: #ec850e;
   --white: #ffffff;
 }
 
@@ -59,7 +59,7 @@
   color: var(--white);
   border-radius: 10px;
 }
-.btn:hover{
+.btn:hover {
   background-color: var(--btn-hover-color);
 }
 
@@ -110,7 +110,6 @@
   align-items: center;
   margin: 0 300px;
   gap: 70px;
-  
 }
 .feature-galary {
   display: grid;
@@ -241,7 +240,7 @@
 /* =====================
     contact us / bonaus section
 =====================*/
-.contact-us{
+.contact-us {
   padding: 30px;
   border-radius: 8px;
   box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.1);
@@ -249,22 +248,26 @@
   margin: 50px auto;
   text-align: center;
 }
-.contact-us .title{
+.contact-us .title {
   margin-bottom: 40px;
 }
-.contact-form{
+.contact-form {
   padding: 0px 10px;
 }
-.contact-form, .name-email ,.button{
+.contact-form,
+.name-email,
+.button {
   display: flex;
   flex-direction: column;
   gap: 30px;
   justify-content: space-between;
 }
-.name-email,.button{
+.name-email,
+.button {
   flex-direction: row;
 }
-.contact-form input, textarea{
+.contact-form input,
+textarea {
   font-size: 20px;
   padding: 10px;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -272,26 +275,25 @@
   width: 100%;
   max-width: 100%;
   border-radius: 8px;
-
 }
-.contact-form  input:focus, 
-.contact-form textarea:focus{
+.contact-form input:focus,
+.contact-form textarea:focus {
   border: 1.8px solid rgba(0, 0, 0, 0.4);
 }
-.button .reset, .button input{
+.button .reset,
+.button input {
   width: 100%;
   font-size: 1.2rem;
   cursor: pointer;
 }
-.reset{
+.reset {
   border: 1px solid rgba(0, 0, 0, 0.1);
   outline: none;
   background-color: var(--menu-text-color);
 }
-.reset:hover{
+.reset:hover {
   background-color: #3b3b3b;
 }
-
 
 /* =====================
     footer area
@@ -301,11 +303,11 @@
   padding: 10px 0;
   border-radius: 8px;
 }
-.footer.container{
+.footer.container {
   padding: 30px 0;
   margin-bottom: 50px;
 }
-.footer p{
+.footer p {
   margin: 10px 0;
 }
 .copy {
@@ -317,12 +319,11 @@
     responsive style for table -- min-width : 1 max width 996px
 =====================*/
 
-
-@media only screen and (min-width:577px) and (max-width: 996px) {
+@media only screen and (min-width: 577px) and (max-width: 996px) {
   .body {
     max-width: 996px;
   }
-  .container{
+  .container {
     margin: 0 100px;
   }
   .feature-love-enjoy {
@@ -336,25 +337,24 @@
     bottom: 0;
     left: 0;
   }
-  .contact-us{
+  .contact-us {
     padding: 30px 0;
   }
-  .contact-us.container{
+  .contact-us.container {
     margin: 0 auto;
-   
   }
   .footer {
     margin-top: 100px;
   }
 }
 
-
 /* =====================
     responsive style for mobile -- max width 476px
 =====================*/
 
 @media only screen and (max-width: 576px) {
-  .title, .description{
+  .title,
+  .description {
     text-align: center;
   }
   .container {
@@ -400,8 +400,8 @@
   /* =====================
    our feature love and enjoy responsive style
 =====================*/
-  .feature-item-head  .title , 
-  .feature-item-head .description{
+  .feature-item-head .title,
+  .feature-item-head .description {
     text-align: left;
   }
   .feature-love-enjoy {
@@ -433,9 +433,9 @@
   /* =====================
    our sponsors responsive style
 =====================*/
-.our-sponsor {
-  padding: 30px 0;
-}
+  .our-sponsor {
+    padding: 30px 0;
+  }
   .logos {
     gap: 70px;
     padding: 30px 10px;
@@ -446,15 +446,16 @@
     height: 30px;
   }
 
- /* =====================
+  /* =====================
   contact us responsive style
 =====================*/
-  .contact-us{
+  .contact-us {
     width: 90%;
     padding: 20px 0;
   }
-  
-  .button, .name-email{
+
+  .button,
+  .name-email {
     flex-direction: column;
   }
 
@@ -464,8 +465,7 @@
     margin-bottom: 50px;
   }
 
-
-  .footer p{
+  .footer p {
     font-size: 14px;
   }
 }
