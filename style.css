@@ -12,6 +12,7 @@
   --menu-text-color: #424242;
   --description-color: #727272;
   --btn-color: #ff900e;
+  --btn-hover-color:#ec850e;
   --white: #ffffff;
 }
 
@@ -57,6 +58,9 @@
   background-color: var(--btn-color);
   color: var(--white);
   border-radius: 10px;
+}
+.btn:hover{
+  background-color: var(--btn-hover-color);
 }
 
 /* =====================
@@ -282,7 +286,10 @@
 .reset{
   border: 1px solid rgba(0, 0, 0, 0.1);
   outline: none;
-  background-color: var(--description-color);
+  background-color: var(--menu-text-color);
+}
+.reset:hover{
+  background-color: #3b3b3b;
 }
 
 
