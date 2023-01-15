@@ -125,7 +125,6 @@
 .title-span2 {
   color: var(--btn-color);
 }
-
 /* =====================
     our-feature love and enjoy section style
 =====================*/
@@ -375,6 +374,7 @@
   /* =====================
    our feature responsive style
 =====================*/
+
   .our-feature {
     flex-direction: column;
   }
@@ -383,6 +383,7 @@
   }
   .feature-details {
     width: 95%;
+    text-align: center;
   }
 
   /* =====================
@@ -405,7 +406,7 @@
     padding: 10px;
     font-size: 25px;
     bottom: 0px;
-    left: 0px;
+    left: 25%;
   }
   .experience p {
     font-size: 1rem;
